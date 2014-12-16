@@ -20,6 +20,23 @@
     <style name="NoActionBar" parent="@android:style/Theme.Holo.Light">
     <item name="android:windowActionBar">false</item>
     <item name="android:windowNoTitle">true</item>
+    
 </style> 
+
+<style name="BodyMedium">
+    <item name="android:textColor">#FFFFFF</item>
+    <item name="android:textSize">31sp</item>
+    <item name="android:shadowColor">#000000</item>
+    <item name="android:shadowDx">1</item>
+    <item name="android:shadowDy">2</item>
+    <item name="android:shadowRadius">3</item>
+    		           
+</style>
+
+<style name="BodyMediumSmall">
+    <item name="android:textColor">#FFFFFF</item>
+    <item name="android:textSize">21sp</item>
+    		           
+</style>
 
 </resources>
