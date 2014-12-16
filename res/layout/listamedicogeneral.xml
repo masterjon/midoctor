@@ -1,0 +1,356 @@
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical" >
+    
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="962dp"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical">
+
+<TableLayout
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_marginTop="85dp" >
+    
+ <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+       
+        android:layout_gravity="center_horizontal"
+      >
+
+        <Button 
+                android:id="@+id/btnpediatra"
+                android:background="@drawable/pediatra_ge"
+                android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                   android:layout_alignParentRight="true"
+                
+                />
+        
+        
+            <Button
+                android:id="@+id/btnneonatologo"
+                android:background="@drawable/neonatologo"
+                android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                   android:layout_alignParentRight="true"
+               
+                />
+</TableRow>
+ <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+       
+        android:layout_gravity="center_horizontal"
+      >
+
+        <Button 
+                android:id="@+id/btnreuma"
+                android:background="@drawable/reuma"
+                android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                   android:layout_alignParentRight="true"
+                
+                />
+         
+            <Button
+                android:id="@+id/btnalergo"
+                android:background="@drawable/alergo"
+                android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                   android:layout_alignParentRight="true"
+                
+                />
+</TableRow>
+
+  <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+       
+        android:layout_gravity="center_horizontal"
+      >
+
+        <Button 
+                android:id="@+id/btnodonto"
+                android:background="@drawable/odonto"
+                android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                   android:layout_alignParentRight="true"
+                
+                />
+         
+           <Button
+                android:id="@+id/btnotorin"
+                android:background="@drawable/otorin"
+                android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                   android:layout_alignParentRight="true"
+                
+                />
+</TableRow>
+
+  <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+       
+        android:layout_gravity="center_horizontal"
+      >
+
+        <Button 
+                android:id="@+id/btngastro"
+                android:background="@drawable/gastro"
+                android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                   android:layout_alignParentRight="true"
+                
+                />
+         
+            <Button
+                android:id="@+id/btnandio"
+                android:background="@drawable/andio"
+                android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                   android:layout_alignParentRight="true"
+                
+                />
+</TableRow>
+
+   <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+       
+        android:layout_gravity="center_horizontal"
+      >
+
+        <Button 
+                android:id="@+id/btncardio"
+                android:background="@drawable/cardiologo"
+                android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                   android:layout_alignParentRight="true"
+                
+                />
+         
+            <Button
+                android:id="@+id/btneumo"
+                android:background="@drawable/neumo"
+                android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                   android:layout_alignParentRight="true"
+                
+                />
+</TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+       
+        android:layout_gravity="center_horizontal"
+      >
+
+        <Button 
+                android:id="@+id/btninmuno"
+                android:background="@drawable/inmuno"
+                android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                   android:layout_alignParentRight="true"
+                
+                />
+         
+            <Button
+                android:id="@+id/btnonco"
+                android:background="@drawable/onco"
+                android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                   android:layout_alignParentRight="true"
+                
+                />
+</TableRow>
+<TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+       
+        android:layout_gravity="center_horizontal"
+      >
+
+        <Button 
+                android:id="@+id/btnderma"
+                android:background="@drawable/derma"
+                android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                   android:layout_alignParentRight="true"
+                
+                />
+         
+            
+             <Button
+                android:id="@+id/btnorto"
+                android:background="@drawable/orto"
+                android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                   android:layout_alignParentRight="true"
+                
+                />
+</TableRow>
+
+<TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+       
+        android:layout_gravity="center_horizontal"
+      >
+
+        <Button 
+                android:id="@+id/btnurgencias"
+                android:background="@drawable/urgencias"
+                android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                   android:layout_alignParentRight="true"
+                
+                />
+         
+            <Button
+                android:id="@+id/btnurologo"
+                android:background="@drawable/urologo"
+                android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                   android:layout_alignParentRight="true"
+                
+                />
+</TableRow>
+ 
+
+<TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+       
+        android:layout_gravity="center_horizontal"
+      >
+
+        <Button 
+                android:id="@+id/btnanestesiologo"
+                android:background="@drawable/anestesiologo"
+                android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                   android:layout_alignParentRight="true"
+                
+                />
+         
+            <Button
+                android:id="@+id/btncirujiaplastica"
+                android:background="@drawable/cirujiaplastica"
+                android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                   android:layout_alignParentRight="true"
+                
+                />
+</TableRow>
+
+<TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+       
+        android:layout_gravity="center_horizontal"
+      >
+
+        <Button 
+                android:id="@+id/btnhermato"
+                android:background="@drawable/hermato"
+                android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                   android:layout_alignParentRight="true"
+                
+                />
+         
+            <Button
+                android:id="@+id/btnneurocirujano"
+                android:background="@drawable/neurocirujano"
+                android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                   android:layout_alignParentRight="true"
+                
+                />
+</TableRow>
+
+<TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+       
+        android:layout_gravity="center_horizontal"
+      >
+
+        <Button 
+                android:id="@+id/btnoftalmologo"
+                android:background="@drawable/oftalmologo"
+                android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                   android:layout_alignParentRight="true"
+                
+                />
+         
+            <Button
+                android:id="@+id/btnterapiaintenciva"
+                android:background="@drawable/terapiaintenciva"
+                android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                   android:layout_alignParentRight="true"
+                
+                />
+</TableRow>
+</TableLayout>
+
+
+<TextView
+android:id="@+id/tv_header"
+android:layout_width="match_parent"
+android:layout_height="90dp"
+android:layout_alignParentTop="true"
+android:layout_centerHorizontal="true"
+android:background="@drawable/headerped"
+android:gravity="center"
+android:orientation="vertical"
+/>
+
+  <Button
+    android:id="@+id/navegacionizq"
+    android:layout_width="38dp"
+    android:layout_height="38dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="25dp"
+   
+     android:background="@drawable/navegacionizq1">
+     </Button>
+
+</RelativeLayout>
+
+</ScrollView>

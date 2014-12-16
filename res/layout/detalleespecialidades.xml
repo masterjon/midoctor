@@ -1,0 +1,204 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical" >
+    
+<RelativeLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="#FFFFFF"
+android:gravity="center"
+android:orientation="vertical">
+
+<TableLayout 
+     android:id="@+id/tableLayout1"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_marginTop="100dp"
+ > 
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp"
+        
+        android:layout_gravity="center_horizontal"
+      >
+
+        <Button 
+                android:id="@+id/btngeneral"
+                android:background="@drawable/general"
+                android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                />
+            <Button
+                android:id="@+id/btnped"
+                android:background="@drawable/ped"
+                android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                />
+</TableRow>
+ <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp"
+        
+        android:layout_gravity="center_horizontal"
+      >
+
+        <Button 
+                android:id="@+id/btnpsico"
+                android:background="@drawable/psico"
+                android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                />
+            <Button
+                android:id="@+id/btnnitri"
+                android:background="@drawable/nitri"
+                android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                />
+</TableRow>
+ <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+       android:paddingTop="20dp"
+        android:layout_gravity="center_horizontal"
+      >
+
+        <Button 
+                android:id="@+id/btnloadcardio"
+                android:background="@drawable/cardio"
+                android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                />
+            <Button
+                android:id="@+id/btngine"
+                android:background="@drawable/gine"
+                android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                />
+</TableRow>
+
+  <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:paddingTop="20dp"
+        android:layout_gravity="center_horizontal"
+      >
+
+        <Button 
+                android:id="@+id/btndent"
+                android:background="@drawable/dent"
+                android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                />
+            <Button
+                android:id="@+id/btnloadoftal"
+                android:background="@drawable/oftal"
+                android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                />
+</TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:paddingTop="20dp"
+        android:layout_gravity="center_horizontal"
+      >
+
+        <Button 
+                android:id="@+id/btnmedinter"
+                android:background="@drawable/medinter"
+                android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                />
+            <Button
+                android:id="@+id/btnmicirujano"
+                android:background="@drawable/micirujano"
+                android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                />
+</TableRow>
+
+     <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:paddingTop="20dp"
+        android:layout_gravity="center_horizontal"
+      >
+
+        <Button 
+                android:id="@+id/btnmineurologo"
+                android:background="@drawable/mineurologo"
+                android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                />
+            <Button
+                android:id="@+id/btnmiortopedista"
+                android:background="@drawable/miortopedista"
+                android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                />
+</TableRow>
+ <TableRow
+        android:id="@+id/tableRow7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="left"
+        android:paddingTop="20dp"
+        android:layout_gravity="center_horizontal"
+      >
+
+        <Button 
+                android:id="@+id/btnmiradiologo"
+                android:background="@drawable/miradiologo"
+                android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                
+                />
+            
+</TableRow>
+</TableLayout>
+
+
+<TextView
+android:id="@+id/tv_header"
+android:layout_width="fill_parent"
+android:layout_height="80dp"
+android:layout_alignParentTop="true"
+android:layout_centerHorizontal="true"
+android:background="@drawable/header"
+android:gravity="center"
+android:orientation="vertical"
+/>
+
+
+
+</RelativeLayout>
+
+</ScrollView>
