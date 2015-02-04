@@ -1,0 +1,81 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical" 
+   android:background="@drawable/fondo_especialidades"
+    >
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+<TextView
+    android:id="@+id/tv_header"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    
+    android:gravity="center"
+    android:orientation="vertical"
+    style="@style/BodyMedium"
+    android:text="Pediatra" />
+
+
+  
+<TableLayout
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="85dp" >
+
+<TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+     <ImageView 
+        android:id="@+id/icono_mascota"
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+       android:layout_alignParentRight="true"
+        />
+     
+   
+    
+    
+</TableRow>
+</TableLayout>
+
+
+    <TextView 
+      android:id="@+id/doc_info"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:gravity="center"
+      android:layout_marginTop="270dp"
+      android:padding="5dp"
+      android:orientation="vertical"
+      style="@style/BodySmallBlack"
+      android:background="@drawable/radius"
+      android:text="El pediatra es el medico especializado encargado del monitoreo y estudio del niño sano y de ofrecer atención medica al paciente enfermo. El pediatra abarca las edades de 0 (recién nacido) a los 18 años."
+      />
+
+
+<ListView
+          android:id="@+id/listView2"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_alignParentBottom="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="370dp"
+          android:dividerHeight="3dp"
+          android:textSize="2px" 
+          android:background="#ffffff">
+             </ListView>
+</RelativeLayout>
+
+</ScrollView>

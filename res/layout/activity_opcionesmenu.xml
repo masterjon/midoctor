@@ -49,17 +49,19 @@
         
    
 		<RelativeLayout 
-		    android:layout_width="wrap_content"
+		    android:layout_width="250dp"
             android:layout_height="wrap_content"
-		    android:layout_marginTop="90dp"
+		    android:layout_marginTop="70dp"
              android:layout_centerHorizontal="true" >
 		    
-		     <ImageView 
+		     <ImageButton 
                   android:id="@+id/doctoresOption"
                   android:layout_width="wrap_content"
                   android:layout_height="wrap_content"
                   android:contentDescription="Doctores"
-                  
+                   android:adjustViewBounds="true"
+					android:scaleType="fitCenter"
+					android:background="@null"
                   android:src="@drawable/boton_doctores"/>
 		     <TextView
             android:id="@+id/textViewDoc"
@@ -67,22 +69,24 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
            
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:layout_marginLeft="110dp"
             android:text="Doctores"
             style="@style/BodyMediumSmall"/>
 		     
 		</RelativeLayout>
         <RelativeLayout 
-             android:layout_width="wrap_content"
+             android:layout_width="250dp"
              android:layout_height="wrap_content"
-             android:layout_marginTop="210dp"
+             android:layout_marginTop="170dp"
              android:layout_centerHorizontal="true" >
-            <ImageView 
+            <ImageButton
                   android:id="@+id/hospitalesOption"
                   android:layout_width="wrap_content"
                   android:layout_height="wrap_content"
-                 
+                  android:adjustViewBounds="true"
+				  android:scaleType="fitCenter"
+				  android:background="@null"
                   android:contentDescription="Hospitales"
                   android:src="@drawable/boton_hospital"/>
            <TextView
@@ -90,21 +94,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:layout_marginLeft="110dp"            
             android:text="Hospitales"
             style="@style/BodyMediumSmall"/>
         </RelativeLayout>     
         <RelativeLayout 
-             android:layout_width="wrap_content"
+             android:layout_width="250dp"
              android:layout_height="wrap_content"
-             android:layout_marginTop="330dp"
+             android:layout_marginTop="280dp"
              android:layout_centerHorizontal="true" >
-            <ImageView 
+            <ImageButton 
                   android:id="@+id/laboratoriosOption"
                   android:layout_width="wrap_content"
                   android:layout_height="wrap_content"
-                  
+                  android:adjustViewBounds="true"
+				  android:scaleType="fitCenter"
+				  android:background="@null"
                   android:contentDescription="Laboratorios"
                   android:src="@drawable/boton_laboratorio"/>
             <TextView
@@ -112,7 +118,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:layout_marginLeft="110dp"            
             android:text="Laboratorios"
             style="@style/BodyMediumSmall"/>
