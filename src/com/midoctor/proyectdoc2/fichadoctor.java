@@ -6,6 +6,7 @@ import com.midoctor.proyectdoc2.R;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -47,6 +48,7 @@ public class fichadoctor extends Activity {
 	     correo = this.getIntent().getStringExtra("correo");
 	     telefono = this.getIntent().getStringExtra("telefono");
 	     code = this.getIntent().getStringExtra("code");
+
 	     
 	     header = (ImageView) findViewById(R.id.tv_header);
 		  hImageViewPic = (ImageView) findViewById(R.id.imageViewrisa);
@@ -168,6 +170,13 @@ public class fichadoctor extends Activity {
 					 iButton.setVisibility(View.GONE);
 					  gButton.setVisibility(View.GONE);
 				}
+				else if(nombre.equals("Dra. Mónica Callejo"))
+				{
+					header.setImageDrawable( getResources().getDrawable(R.drawable.header_odontologo));
+					hImageViewPic.setImageDrawable( getResources().getDrawable(R.drawable.logo_monica_callejo_big));
+					 iButton.setVisibility(View.GONE);
+					  gButton.setVisibility(View.GONE);
+				}
 				else{
 					
 				}
@@ -244,7 +253,7 @@ public class fichadoctor extends Activity {
 	      switch(keyCode) {
 	      case(KeyEvent.KEYCODE_BACK):
 	          
-			     if(code.equals("gastro")){
+			     if(code.equals("alergologo") || code.equals("gastro") || code.equals("odontologo")){
 			    	 Intent a1_intent = new Intent(this, ListaMedicosActivity.class);
 				     a1_intent.putExtra("especialidad", code);
 			       startActivity(a1_intent);

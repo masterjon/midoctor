@@ -111,6 +111,10 @@ public class adapterdirectorio extends ArrayAdapter<classespecialidades> {
 			{
 				holder.btnimage.setImageResource(R.drawable.logo_raul);
 			}
+			else if(so.Name().equals("Dra. Mónica Callejo"))
+			{
+				holder.btnimage.setImageResource(R.drawable.logo_monica_callejo);
+			}
 			else{
 				holder.btnimage.setImageResource(R.drawable.doctor);
 			}

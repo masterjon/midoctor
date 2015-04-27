@@ -71,7 +71,35 @@
         />
         
     </LinearLayout>
-    
+       <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/navegacionder1"
+            android:layout_width="38dp"
+             android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_height="38dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:background="@drawable/derecha" />
+
+        <Button
+            android:id="@+id/navegacionizq1"
+            android:layout_width="38dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="38dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:background="@drawable/izquierda" />
+        
+    </RelativeLayout>
     <LinearLayout
         android:layout_width="300dp"
         android:layout_height="wrap_content"
@@ -82,58 +110,38 @@
 		        android:id="@+id/direccion"
 		        android:layout_width="fill_parent"
 		        android:layout_height="wrap_content"
-		        android:textSize="@dimen/font_small"
+		        android:textSize="@dimen/font_medium"
 		        android:layout_marginRight="20dp"
 		        android:layout_gravity="left"
+		        android:textStyle="italic"
 		       
 		       />
        <TextView 
 		        android:id="@+id/telefono"
 		        android:layout_width="fill_parent"
 		        android:layout_height="wrap_content"
-		        android:textSize="@dimen/font_small"
+		        android:textSize="@dimen/font_medium"
 		        android:layout_marginRight="20dp"
 		         android:layout_gravity="left"
+		         android:textStyle="italic"
+
 		       
 		        />
        <TextView 
 		        android:id="@+id/email"
 		        android:layout_width="fill_parent"
 		        android:layout_height="wrap_content"
-		        android:textSize="@dimen/font_small"
+		        android:textSize="@dimen/font_medium"
 		        android:layout_marginRight="20dp"
 		         android:layout_gravity="left"
+		         android:textStyle="italic"
 		        
 		       />
         
           </LinearLayout>
  
     <!-- FOOTER -->
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        
-        android:orientation="vertical">
-
-        <Button
-            android:id="@+id/navegacionder1"
-            android:layout_width="38dp"
-            android:layout_height="38dp"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            android:layout_weight="1"
-            android:background="@drawable/navegacionder1" />
-
-        <Button
-            android:id="@+id/navegacionizq1"
-            android:layout_width="38dp"
-            android:layout_height="38dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_weight="1"
-            android:background="@drawable/navegacionizq1" />
-        
-    </RelativeLayout>
+ 
 
 </LinearLayout>
 

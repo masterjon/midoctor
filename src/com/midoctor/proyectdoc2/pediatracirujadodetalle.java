@@ -44,7 +44,7 @@ public class pediatracirujadodetalle extends Activity {
 			
 			header.setImageDrawable( getResources().getDrawable(R.drawable.headerpediatraslista));      
 			classespecialidades one = new
-		classespecialidades("1","Dra. Eunice May Narvaez","Especialista Pediátrica","9982250326","nichemn01@hotmail.com","pediatra","21.15869000614639", "-86.85727299999996",
+		classespecialidades("1","Dra. Eunice May Narvaez","Pediatra","9982250326","nichemn01@hotmail.com","pediatra","21.15869000614639", "-86.85727299999996",
 		"Av López portillo num 872 y 874 consultorio 101"+"\n"+"Primer piso SM 59 Quirúrgica del Sur."+"/n"+"Unidad Morelos Cancún Quintana Roo");
 			
 			classespecialidades one1 = new classespecialidades("2","Dr. José Carlos Balmaceda L.","Pediatra","9988450668","jocabalo45@hotmail.com","pediatra","21.135900006139135", "-86.82763299999999",

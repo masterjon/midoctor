@@ -198,7 +198,18 @@ public class detalleespecialidadades extends Activity {
 	          
 	        }
 	    });
-
+	    final Button button16 = (Button) findViewById(R.id.btnodontologo);
+	    button16.setOnClickListener(new View.OnClickListener() {
+	        public void onClick(View v) {
+	            // Perform action on click   
+	        	
+	        	Intent visitas = new Intent(getApplicationContext(), ListaMedicosActivity.class);
+	            visitas.putExtra("especialidad", "odontologo");
+				startActivity(visitas);
+	        	
+	          
+	        }
+	    });
 	    final Button button17 = (Button) findViewById(R.id.btnoncologo);
 	    button17.setOnClickListener(new View.OnClickListener() {
 	        public void onClick(View v) {

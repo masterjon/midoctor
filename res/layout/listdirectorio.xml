@@ -2,7 +2,8 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:minHeight="100dp"
-    android:orientation="horizontal" >
+    android:orientation="horizontal"
+    android:background="#ffffff" >
 
      <ImageView
         android:id="@+id/thumbtel"
@@ -36,7 +37,8 @@
 		android:layout_toRightOf="@+id/thumbtel"
 		android:paddingLeft="5dp"
 		 android:layout_marginTop="60dp" 
-		android:textStyle="normal" 
+		android:textStyle="italic"
+		android:textColor="#3EB1D8"
 		android:text="Ver más"
 		android:textSize="15sp" />
 	

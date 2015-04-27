@@ -59,7 +59,7 @@
       android:orientation="vertical"
       style="@style/BodySmallBlack"
       android:background="@drawable/radius"
-      android:text="El pediatra es el medico especializado encargado del monitoreo y estudio del niño sano y de ofrecer atención medica al paciente enfermo. El pediatra abarca las edades de 0 (recién nacido) a los 18 años."
+      android:text="El pediatra es el médico especializado encargado del monitoreo y estudio del niño sano y de ofrecer atención medica al paciente enfermo. El pediatra abarca las edades de 0 (recién nacido) a los 18 años."
       />
   <TextView 
       android:id="@+id/info_lbl"
@@ -82,12 +82,12 @@
         android:layout_gravity="center_horizontal"
       >
 
-        <Button 
+        <ImageButton 
                 android:id="@+id/btnpediatra"
-               
+               android:src="@drawable/boton_pediatra"
                 android:layout_width="match_parent"
                  android:layout_height="match_parent"
-                 android:text="Pediatra General"
+                 android:contentDescription="Pediatra General"
                  android:background="@drawable/radius"
                    android:layout_alignParentRight="true"
                 
@@ -107,12 +107,13 @@
       >
           
       
-          <Button
+          <ImageButton
                 android:id="@+id/btnalergo"
+                android:src="@drawable/boton_alergologo"
                android:background="@drawable/radius"
                 android:layout_width="match_parent"
                  android:layout_height="match_parent"
-                 android:text="Alergólogo"
+                 android:contentDescription="Alergólogo"
                    android:layout_alignParentRight="true"
                 
                 />
@@ -130,12 +131,14 @@
        android:paddingTop="5dp"
         android:layout_gravity="center_horizontal"
       >
-          <Button
+          <ImageButton
                 android:id="@+id/btnneonatologo"
+                android:src="@drawable/boton_neonatologo"
+                
                 android:background="@drawable/radius"
                 android:layout_width="match_parent"
                  android:layout_height="match_parent"
-                 android:text="Neonatólogo"
+                 android:contentDescription="Neonatólogo"
                    android:layout_alignParentRight="true"
                
                 />
@@ -152,12 +155,13 @@
        android:paddingTop="5dp"
         android:layout_gravity="center_horizontal"
       >
-      <Button 
+      <ImageButton 
                 android:id="@+id/btnodonto"
+                android:src="@drawable/boton_odontopediatra"
                 android:background="@drawable/radius"
                 android:layout_width="match_parent"
                  android:layout_height="match_parent"
-                 android:text="Odontopediatra"
+                 android:contentDescription="Odontopediatra"
                    android:layout_alignParentRight="true"
                 
                 />
@@ -173,12 +177,13 @@
        android:paddingTop="5dp"
         android:layout_gravity="center_horizontal"
       >
-		<Button 
+		<ImageButton 
                 android:id="@+id/btnreuma"
+                android:src="@drawable/boton_reumatologo"
                 android:background="@drawable/radius"
                 android:layout_width="match_parent"
                  android:layout_height="match_parent"
-                 android:text="Reumatólogo"
+                 android:contentDescription="Reumatólogo"
                    android:layout_alignParentRight="true"
                 
                 />

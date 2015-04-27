@@ -81,7 +81,7 @@ public class pediatracirujano  extends Activity {
 			texto.setText("Conoce a nuestros pediatras generales:");
 			//header.setImageDrawable( getResources().getDrawable(R.drawable.headerpediatraslista));      
 				classespecialidades one = new
-			classespecialidades("1","Dra. Eunice May Narvaez","Especialista Pediátrica","8864631","nichemn01@hotmail.com","pediatra","21.15869000614639", "-86.85727299999996",
+			classespecialidades("1","Dra. Eunice May Narvaez","Pediatra","8864631","nichemn01@hotmail.com","pediatra","21.15869000614639", "-86.85727299999996",
 			"Av López portillo num 872 y 874 consultorio 101"+"\n"+"Primer piso SM 59 Quirúrgica del Sur."+"/n"+"Unidad Morelos Cancún Quintana Roo");
 				
 				classespecialidades one1 = new classespecialidades("2","Dr. José Carlos Balmaceda L.","Pediatra","8844005","jocabalo45@hotmail.com",code,"21.135900006139135", "-86.82763299999999",
@@ -111,13 +111,13 @@ public class pediatracirujano  extends Activity {
 				+ "de un reci&eacute;n nacido, a los reci&eacute;n nacidos "
 				+ "hospitalizados y atiende a ni&ntilde;os prematuros. "
 				+ " </div></body></html>" ,"text/html", "UTF-8");
-		texto.setText("Conoce a nuestros neonatologos:");
+		texto.setText("Conoce a nuestros neonatólogos:");
 		classespecialidades one = new
-				classespecialidades("1","Dra. Miriam Campos Rebolledo","Neonatologo","2063549","micamre@hotmail.com",code,"", "",
+				classespecialidades("1","Dra. Miriam Campos Rebolledo","Neonatólogo","2063549","micamre@hotmail.com",code,"21.150147", "-86.848776",
 				"Av. Andrés Quinatan Roo mza 1  Consultorio 1  SM45   Edificio Roberth Koch ");
 					
 		classespecialidades one1 = new 
-				classespecialidades("2","Dr. Horacio Nolasco Martínez","Neonatologo","8492299","drhoracionolasco@hotmail.com",code,"", "",
+				classespecialidades("2","Dr. Horacio Nolasco Martínez","Neonatólogo","8492299","drhoracionolasco@hotmail.com",code,"21.1454079","-86.8445853",
 				" Av. La luna num 23 mza 14  SM 43   Pedregal del Bosque. CP. 77500");
 		fetch.add(one);
 		fetch.add(one1);	
@@ -137,9 +137,9 @@ public class pediatracirujano  extends Activity {
 				+ "complejas en articulaciones, m&uacutesculos "
 				+ "huesos y &oacute;rganos como ri&ntilde;ones, pulmones, vasos sangu&iacute;neos y cerebro."
 				+ " </div></body></html>" ,"text/html", "UTF-8");
-		texto.setText("Conoce a nuestros reumatologos:");
+		texto.setText("Conoce a nuestros reumatólogos:");
 		classespecialidades one = new
-				classespecialidades("1","Dr. Omar Ernesto  Rojas Pacheco","Reumatologo","8981927","dr_rojas_@hotmail.com",code,"", "",
+				classespecialidades("1","Dr. Omar Ernesto  Rojas Pacheco","Reumatólogo","8981927","dr_rojas_@hotmail.com",code,"21.13655", "-86.827488",
 				"Av. Tulum Lote 1 mza 1 consultorio 203  SM 12  Hospital Galenia. CP 77505");
 					
 		
@@ -158,13 +158,13 @@ public class pediatracirujano  extends Activity {
 				+ "asma y enfermedades relacionadas con el sistema de defensa, por ejemplo rinitis "
 				+ "al&eacute;rgica, urticarial y eczema."
 				+ " </div></body></html>" ,"text/html", "UTF-8");
-		texto.setText("Conoce a nuestros alergologos:");
+		texto.setText("Conoce a nuestros alergólogos:");
 		classespecialidades one = new
-				classespecialidades("1","Dr. Francisco Navarrete Suárez","Alergeologo","8981927","alergiadecancun@yahoo.com.mx",code,"", "",
+				classespecialidades("1","Dr. Francisco Navarrete Suárez","Alergólogo","8981927","alergiadecancun@yahoo.com.mx",code,"21.13655", "-86.827488",
 				"Av. Tulum Lote 1 mza 1 consultorio 203  SM 12 Hospital Galenia. CP 77505  \n\nServicios: Pacientes con alergias, pruebas de alergia, espirometrias, vacunas para alergia y vacunas complementarias de la cartilla de vacunacion.");
 					
 		classespecialidades one1 = new 
-				classespecialidades("2","Dra. Aurora Meza Morales","Alergeologo","8981927","alergiaypediatria@yahoo.com.mx",code,"", "",
+				classespecialidades("2","Dra. Aurora Meza Morales","Alergólogo","8981927","alergiaypediatria@yahoo.com.mx",code,"21.13655", "-86.827488",
 				"Av. Tulum lote 1 mza 1 consultorio 203 SM 12  Hospital Galenia. CP 77505");
 		fetch.add(one);
 		fetch.add(one1);	
@@ -185,7 +185,7 @@ public class pediatracirujano  extends Activity {
 				+ " </div></body></html>" ,"text/html", "UTF-8");
 		texto.setText("Conoce a nuestros odontopediatras:");
 		classespecialidades one = new 
-				classespecialidades("5","Dr. Mauricio Peña Párraga","Odontopediatra","8021582","pena@teleton-qroo.org.mx",code,"", "",
+				classespecialidades("5","Dr. Mauricio Peña Párraga","Odontopediatra","8021582","pena@teleton-qroo.org.mx",code,"21.150147", "-86.848776",
 				"Av. Nichupte 22  Pabellón Caribe  Local 10 grupo médico integral");
 		fetch.add(one);
 		}

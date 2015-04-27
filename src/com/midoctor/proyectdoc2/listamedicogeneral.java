@@ -8,28 +8,29 @@ import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 
 public class listamedicogeneral extends Activity {
 	
 	
 	
-	private Button buttonpediatra;
-	private Button buttonneonato;
-	private Button buttonreuma;
-	private Button buttonalergo;
-	private Button buttoodonto;
+	private ImageButton buttonpediatra;
+	private ImageButton buttonneonato;
+	private ImageButton buttonreuma;
+	private ImageButton buttonalergo;
+	private ImageButton buttoodonto;
 	
 	private  Button buttonREGRESAR;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.listamedicogeneral);
-		 buttonpediatra = (Button) findViewById(R.id.btnpediatra);
-		 buttonneonato = (Button) findViewById(R.id.btnneonatologo);
-		 buttonreuma = (Button) findViewById(R.id.btnreuma);
-		 buttonalergo = (Button) findViewById(R.id.btnalergo);
-		 buttoodonto = (Button) findViewById(R.id.btnodonto);
+		 buttonpediatra = (ImageButton) findViewById(R.id.btnpediatra);
+		 buttonneonato = (ImageButton) findViewById(R.id.btnneonatologo);
+		 buttonreuma = (ImageButton) findViewById(R.id.btnreuma);
+		 buttonalergo = (ImageButton) findViewById(R.id.btnalergo);
+		 buttoodonto = (ImageButton) findViewById(R.id.btnodonto);
 		
 		 buttonREGRESAR = (Button) findViewById(R.id.navegacionizq);
 		buttonpediatra.setOnClickListener(new View.OnClickListener() {

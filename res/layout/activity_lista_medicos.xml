@@ -63,18 +63,30 @@
       android:background="@drawable/radius"
       android:text="El pediatra es el medico especializado encargado del monitoreo y estudio del niño sano y de ofrecer atención medica al paciente enfermo. El pediatra abarca las edades de 0 (recién nacido) a los 18 años."
       />
-
+      <TextView
+        android:id="@+id/texto"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="420dp"
+        android:orientation="vertical"
+        android:textSize="14sp"
+        android:textStyle="bold" />
 
 <ListView
           android:id="@+id/listView2"
           android:layout_width="match_parent"
-          android:layout_height="match_parent"
+          android:layout_height="210dp"
           android:layout_alignParentBottom="true"
           android:layout_centerHorizontal="true"
-          android:layout_marginTop="370dp"
+          android:layout_marginTop="450dp"
+          android:layout_marginBottom="10dp"
           android:dividerHeight="3dp"
           android:textSize="2px" 
-          android:background="#ffffff">
+          >
              </ListView>
 </RelativeLayout>
 
