@@ -48,14 +48,14 @@ public class MainActivity extends Activity {
 		ImageButton btnface = (ImageButton) findViewById(R.id.face);
 		btnface.setOnClickListener(new View.OnClickListener() {
 	        public void onClick(View v) {
-	        	Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.facebook.com/MiDoctorDirectorio"));
+	        	Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/TuDoctor"));
 				startActivity(browserIntent);
 	      }});
 		
 		ImageButton btntwitter = (ImageButton) findViewById(R.id.twitter);
 		btntwitter.setOnClickListener(new View.OnClickListener() {
 	        public void onClick(View v) {
-	        	Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.twitter.com/MiDoctor_"));
+	        	Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/TuDoctor_"));
 				startActivity(browserIntent);
 	      }});
 		 final ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,

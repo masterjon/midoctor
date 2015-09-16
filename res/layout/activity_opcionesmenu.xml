@@ -87,7 +87,7 @@
                   android:adjustViewBounds="true"
 				  android:scaleType="fitCenter"
 				  android:background="@null"
-                  android:contentDescription="Hospitales"
+                  android:contentDescription="Clínicas y Hospitales"
                   android:src="@drawable/boton_hospital"/>
            <TextView
             android:id="@+id/textViewHosp"
@@ -96,7 +96,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="110dp"            
-            android:text="Hospitales"
+            android:text="Clínicas y Hospitales"
             style="@style/BodyMediumSmall"/>
         </RelativeLayout>     
         <RelativeLayout 

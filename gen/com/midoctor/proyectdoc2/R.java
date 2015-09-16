@@ -1653,9 +1653,10 @@ containing a value of this type.
         public static final int telefono=0x7f020134;
         public static final int terapiaintenciva=0x7f020135;
         public static final int twitter=0x7f020136;
-        public static final int ubicacion=0x7f020137;
-        public static final int urgencias=0x7f020138;
-        public static final int urologo=0x7f020139;
+        public static final int twitter_old=0x7f020137;
+        public static final int ubicacion=0x7f020138;
+        public static final int urgencias=0x7f020139;
+        public static final int urologo=0x7f02013a;
     }
     public static final class id {
         public static final int LblTitulo=0x7f0500a3;

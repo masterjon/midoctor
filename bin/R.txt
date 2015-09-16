@@ -519,9 +519,10 @@ int drawable tel 0x7f020133
 int drawable telefono 0x7f020134
 int drawable terapiaintenciva 0x7f020135
 int drawable twitter 0x7f020136
-int drawable ubicacion 0x7f020137
-int drawable urgencias 0x7f020138
-int drawable urologo 0x7f020139
+int drawable twitter_old 0x7f020137
+int drawable ubicacion 0x7f020138
+int drawable urgencias 0x7f020139
+int drawable urologo 0x7f02013a
 int id LblTitulo 0x7f0500a3
 int id Lbldetail 0x7f0500a4
 int id Lblespecialidades 0x7f050099
