@@ -41,7 +41,7 @@ public class MainActivity extends Activity {
 		ImageButton btnlink = (ImageButton) findViewById(R.id.botondoctorizate);
 		btnlink.setOnClickListener(new View.OnClickListener() {
 	        public void onClick(View v) {
-	        	Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.directoriomidoctor.com/doctorizate/"));
+	        	Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.tudoctor.net/doctorizate/"));
 				startActivity(browserIntent);
 	      }});
 		

@@ -77,97 +77,82 @@
         android:id="@+id/tableRow2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center_horizontal"
        android:paddingTop="5dp"
-        android:layout_gravity="center_horizontal"
+       android:paddingLeft="20dp"
+       android:paddingRight="20dp"
       >
 
         <ImageButton 
                 android:id="@+id/btnpediatra"
                android:src="@drawable/boton_pediatra"
-                android:layout_width="match_parent"
-                 android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                               android:layout_gravity="left"
+              android:layout_weight="1"
+                            android:scaleType="centerInside"
+              
                  android:contentDescription="Pediatra General"
                  android:background="@drawable/radius"
-                   android:layout_alignParentRight="true"
-                
+                />
+        
+         <ImageButton
+                android:id="@+id/btnalergo"
+                android:src="@drawable/boton_alergologo"
+               android:background="@drawable/radius"
+                android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                               android:layout_gravity="right"
+              android:layout_weight="1"
+                            android:scaleType="centerInside"
+              
+                 android:contentDescription="Alergólogo"
                 />
         
         
             
 </TableRow>
 
- <TableRow
-        android:id="@+id/tableRow3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-       android:paddingTop="5dp"
-        android:layout_gravity="center_horizontal"
-      >
-          
-      
-          <ImageButton
-                android:id="@+id/btnalergo"
-                android:src="@drawable/boton_alergologo"
-               android:background="@drawable/radius"
-                android:layout_width="match_parent"
-                 android:layout_height="match_parent"
-                 android:contentDescription="Alergólogo"
-                   android:layout_alignParentRight="true"
-                
-                />
-         
-           
-
-       
-</TableRow>
+ 
 
   <TableRow
         android:id="@+id/tableRow4"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
        android:paddingTop="5dp"
-        android:layout_gravity="center_horizontal"
+       android:paddingLeft="20dp"
+       android:paddingRight="20dp"
+       
       >
-          <ImageButton
-                android:id="@+id/btnneonatologo"
-                android:src="@drawable/boton_neonatologo"
-                
-                android:background="@drawable/radius"
-                android:layout_width="match_parent"
-                 android:layout_height="match_parent"
-                 android:contentDescription="Neonatólogo"
-                   android:layout_alignParentRight="true"
-               
-                />
 
- 
+          <ImageButton
+              android:id="@+id/btnneonatologo"
+              android:layout_width="wrap_content"
+				              android:layout_height="wrap_content"
+				
+              android:layout_gravity="left"
+              android:layout_weight="1"
+              android:background="@drawable/radius"
+              android:contentDescription="Neonatólogo"
+              android:scaleType="centerInside"
+              
+              android:src="@drawable/boton_neonatologo" />
+
+          <ImageButton
+              android:id="@+id/btnodonto"
+              android:layout_width="wrap_content"
+              				              android:layout_height="wrap_content"
+              
+              android:layout_gravity="right"
+              android:layout_weight="1"
+              android:background="@drawable/radius"
+              android:contentDescription="Odontopediatra"
+                            android:scaleType="centerInside"
+              
+              android:src="@drawable/boton_odontopediatra" />
               
 </TableRow>
 
-   <TableRow
-        android:id="@+id/tableRow6"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center_horizontal"
-       android:paddingTop="5dp"
-        android:layout_gravity="center_horizontal"
-      >
-      <ImageButton 
-                android:id="@+id/btnodonto"
-                android:src="@drawable/boton_odontopediatra"
-                android:background="@drawable/radius"
-                android:layout_width="match_parent"
-                 android:layout_height="match_parent"
-                 android:contentDescription="Odontopediatra"
-                   android:layout_alignParentRight="true"
-                
-                />
-         
-           
-  </TableRow>
+  
    <TableRow
         android:id="@+id/tableRow7"
         android:layout_width="match_parent"
@@ -181,8 +166,11 @@
                 android:id="@+id/btnreuma"
                 android:src="@drawable/boton_reumatologo"
                 android:background="@drawable/radius"
-                android:layout_width="match_parent"
-                 android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="40dp"
+                 android:layout_marginRight="40dp"
+                                             android:scaleType="centerInside"
                  android:contentDescription="Reumatólogo"
                    android:layout_alignParentRight="true"
                 

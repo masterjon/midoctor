@@ -55,14 +55,14 @@ public class fichadoctor extends Activity {
 		
 		  iButton = (Button) findViewById(R.id.navegacionder1);
 	      gButton = (Button) findViewById(R.id.navegacionizq1);
-	      texttitulo = (TextView)findViewById(R.id.texttitulo);
-	      textdireccion = (TextView)findViewById(R.id.direccion);
+	     texttitulo = (TextView)findViewById(R.id.texttitulo);
+	     /*  textdireccion = (TextView)findViewById(R.id.direccion);
 	      texttelefono = (TextView)findViewById(R.id.telefono);
 	      textemail = (TextView)findViewById(R.id.email);
 	      
 	      textdireccion.setText(direccion);
 	      texttelefono.setText(correo);
-	      textemail.setText(telefono);
+	      textemail.setText(telefono);*/
 	        texttitulo.setText(nombre);
 	        
 	        
@@ -84,91 +84,94 @@ public class fichadoctor extends Activity {
 				if(nombre.equals("Dra. Eunice May Narvaez"))
 				{
 					header.setImageDrawable( getResources().getDrawable(R.drawable.header_peidatra));
-					  hImageViewPic.setImageDrawable( getResources().getDrawable(R.drawable.logo_eunice_may_big));
+					  hImageViewPic.setImageDrawable( getResources().getDrawable(R.drawable.eunicemay_slide1));
 					 iButton.setVisibility(View.GONE);
 					  gButton.setVisibility(View.GONE);
 				}
 				else if(nombre.equals("Dr. José Carlos Balmaceda L."))
 				{
 					header.setImageDrawable( getResources().getDrawable(R.drawable.header_peidatra));
+					  hImageViewPic.setImageDrawable( getResources().getDrawable(R.drawable.josecarlosbalmaceda_slide1));
+
 					 iButton.setVisibility(View.GONE);
 					  gButton.setVisibility(View.GONE);
 				}
 				else if(nombre.equals("Dr. Raúl Medina Chávez"))
 				{
 					header.setImageDrawable( getResources().getDrawable(R.drawable.header_peidatra));
-					imgs.add(R.drawable.doctor_bg);
-					imgs.add(R.drawable.mascota_bg_general);
-					hImageViewPic.setImageDrawable( getResources().getDrawable(R.drawable.doctor_bg	));
-					iButton.setOnClickListener(iButtonChangeImageListener);
-				    gButton.setOnClickListener(gButtonChangeImageListener);
+					hImageViewPic.setImageDrawable( getResources().getDrawable(R.drawable.raul_medina_slide1	));
+					iButton.setVisibility(View.GONE);
+					  gButton.setVisibility(View.GONE);
 				}
 				else if(nombre.equals("Dra. Genny Santamaría Berrón"))
 				{
 					header.setImageDrawable( getResources().getDrawable(R.drawable.header_peidatra));
-					imgs.add(R.drawable.logo_geny_big);
-					imgs.add(R.drawable.seccion_geny);
-					hImageViewPic.setImageDrawable( getResources().getDrawable(R.drawable.logo_geny_big));
+					imgs.add(R.drawable.drageny_slide1);
+					imgs.add(R.drawable.drageny_slide2);
+					hImageViewPic.setImageDrawable( getResources().getDrawable(R.drawable.drageny_slide1));
 					iButton.setOnClickListener(iButtonChangeImageListener);
 				    gButton.setOnClickListener(gButtonChangeImageListener);
 				}
 				else if(nombre.equals("Dra. Miriam Campos Rebolledo"))
 				{
+					imgs.add(R.drawable.miriamcamposr_rebolledo_slide1);
+					imgs.add(R.drawable.miriamcampos_slide2);
 					header.setImageDrawable( getResources().getDrawable(R.drawable.header_neonatologo));
-					 iButton.setVisibility(View.GONE);
-					  gButton.setVisibility(View.GONE);
+					hImageViewPic.setImageDrawable( getResources().getDrawable(R.drawable.miriamcamposr_rebolledo_slide1));
+					iButton.setOnClickListener(iButtonChangeImageListener);
+				    gButton.setOnClickListener(gButtonChangeImageListener);
 				}
 				else if(nombre.equals("Dr. Horacio Nolasco Martínez"))
 				{
 					header.setImageDrawable( getResources().getDrawable(R.drawable.header_neonatologo));
+					hImageViewPic.setImageDrawable( getResources().getDrawable(R.drawable.nolascohoracio_slide1));
 					 iButton.setVisibility(View.GONE);
 					  gButton.setVisibility(View.GONE);
 				}
 				else if(nombre.equals("Dr. Omar Ernesto  Rojas Pacheco"))
 				{
 					header.setImageDrawable( getResources().getDrawable(R.drawable.header_reumatologo));
-					imgs.add(R.drawable.logo_omar_ernesto_rojas_big);
-					imgs.add(R.drawable.mascota_bg_reumatologo);
-					hImageViewPic.setImageDrawable( getResources().getDrawable(R.drawable.logo_omar_ernesto_rojas_big));
+					imgs.add(R.drawable.omarrojas_slide1);
+					imgs.add(R.drawable.omarrojas_slide2);
+					hImageViewPic.setImageDrawable( getResources().getDrawable(R.drawable.omarrojas_slide1));
 					iButton.setOnClickListener(iButtonChangeImageListener);
 				    gButton.setOnClickListener(gButtonChangeImageListener);
 				}
 				else if(nombre.equals("Dr. Francisco Navarrete Suárez"))
 				{
 					header.setImageDrawable( getResources().getDrawable(R.drawable.header_alergologo));
-					imgs.add(R.drawable.logo_navarrete_big);
-					imgs.add(R.drawable.navarrete1);
-					imgs.add(R.drawable.navarrete2);
-					imgs.add(R.drawable.navarrete3);
-					imgs.add(R.drawable.mascota_bg_alergologo);
-					
-					hImageViewPic.setImageDrawable( getResources().getDrawable(R.drawable.logo_navarrete_big));
+					imgs.add(R.drawable.franciscon_slide1);
+					imgs.add(R.drawable.franciscon_slide2);
+					imgs.add(R.drawable.franciscon_slide3);
+					imgs.add(R.drawable.franciscon_slide4);
+					hImageViewPic.setImageDrawable( getResources().getDrawable(R.drawable.franciscon_slide1));
 					iButton.setOnClickListener(iButtonChangeImageListener);
 				    gButton.setOnClickListener(gButtonChangeImageListener);
 				}
 				else if(nombre.equals("Dra. Aurora Meza Morales"))
 				{
 					header.setImageDrawable( getResources().getDrawable(R.drawable.header_alergologo));
-					imgs.add(R.drawable.logo_aurora_big);
-					imgs.add(R.drawable.risa);
-					imgs.add(R.drawable.mascota_bg_alergologo);
-					hImageViewPic.setImageDrawable( getResources().getDrawable(R.drawable.logo_aurora_big));
+					imgs.add(R.drawable.aurorameza_slide1);
+					imgs.add(R.drawable.aurorameza_slide2);
+					hImageViewPic.setImageDrawable( getResources().getDrawable(R.drawable.aurorameza_slide1));
 					iButton.setOnClickListener(iButtonChangeImageListener);
 				    gButton.setOnClickListener(gButtonChangeImageListener);
 				}
 				else if(nombre.equals("Dr. Mauricio Peña Párraga"))
 				{
 					header.setImageDrawable( getResources().getDrawable(R.drawable.header_peidatra));
-					hImageViewPic.setImageDrawable( getResources().getDrawable(R.drawable.logo_mauricio_axayacatl_big));
+					hImageViewPic.setImageDrawable( getResources().getDrawable(R.drawable.mauricopena_slide1));
 					 iButton.setVisibility(View.GONE);
 					  gButton.setVisibility(View.GONE);
 				}
 				else if(nombre.equals("Dr. Raúl Barragán Parrao"))
 				{
+					imgs.add(R.drawable.barraganparrao_slide1);
+					imgs.add(R.drawable.barragan_slide2);
 					header.setImageDrawable( getResources().getDrawable(R.drawable.header_gastroenterologo));
-					hImageViewPic.setImageDrawable( getResources().getDrawable(R.drawable.logo_raul_big));
-					 iButton.setVisibility(View.GONE);
-					  gButton.setVisibility(View.GONE);
+					hImageViewPic.setImageDrawable( getResources().getDrawable(R.drawable.barraganparrao_slide1));
+					iButton.setOnClickListener(iButtonChangeImageListener);
+				    gButton.setOnClickListener(gButtonChangeImageListener);
 				}
 				else if(nombre.equals("Dra. Mónica Callejo"))
 				{
