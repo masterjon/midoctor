@@ -111,8 +111,8 @@
                   android:adjustViewBounds="true"
 				  android:scaleType="fitCenter"
 				  android:background="@null"
-                  android:contentDescription="Laboratorios"
-                  android:src="@drawable/boton_laboratorio"/>
+                  android:contentDescription="Laboratorios y Rayos X"
+                  android:src="@drawable/botonlabs"/>
             <TextView
             android:id="@+id/textViewLabs"
             android:layout_width="wrap_content"
@@ -120,7 +120,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="110dp"            
-            android:text="Laboratorios"
+            android:text="Laboratorios y Rayos X"
             style="@style/BodyMediumSmall"/>
         </RelativeLayout>      
               

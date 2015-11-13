@@ -137,6 +137,13 @@ private GoogleMap googleMap;
 			           return true;
 			    	
 			     }
+	    	  else if(code.equals("clinicas") || code.equals("laboratorios")){
+	    		  //Intent a1_intent = new Intent(this, ClinicasActivity.class);
+				    // a1_intent.putExtra("especialidad", code);
+			       //startActivity(a1_intent);
+			           finish();
+			           return false;
+	    	  }
 			     else{
 			    	 Intent a1_intent = new Intent(this, pediatracirujano.class);
 				     a1_intent.putExtra("code", code);

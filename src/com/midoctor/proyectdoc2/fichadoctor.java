@@ -99,9 +99,11 @@ public class fichadoctor extends Activity {
 				else if(nombre.equals("Dr. Raúl Medina Chávez"))
 				{
 					header.setImageDrawable( getResources().getDrawable(R.drawable.header_peidatra));
-					hImageViewPic.setImageDrawable( getResources().getDrawable(R.drawable.raul_medina_slide1	));
-					iButton.setVisibility(View.GONE);
-					  gButton.setVisibility(View.GONE);
+					  imgs.add(R.drawable.raul_medina_slide1);
+						imgs.add(R.drawable.raul_medina_slide2);
+						hImageViewPic.setImageDrawable( getResources().getDrawable(R.drawable.raul_medina_slide1));
+						iButton.setOnClickListener(iButtonChangeImageListener);
+					    gButton.setOnClickListener(gButtonChangeImageListener);
 				}
 				else if(nombre.equals("Dra. Genny Santamaría Berrón"))
 				{
@@ -153,6 +155,7 @@ public class fichadoctor extends Activity {
 					header.setImageDrawable( getResources().getDrawable(R.drawable.header_alergologo));
 					imgs.add(R.drawable.aurorameza_slide1);
 					imgs.add(R.drawable.aurorameza_slide2);
+					imgs.add(R.drawable.aurorameza_slide3);
 					hImageViewPic.setImageDrawable( getResources().getDrawable(R.drawable.aurorameza_slide1));
 					iButton.setOnClickListener(iButtonChangeImageListener);
 				    gButton.setOnClickListener(gButtonChangeImageListener);
@@ -180,6 +183,17 @@ public class fichadoctor extends Activity {
 					 iButton.setVisibility(View.GONE);
 					  gButton.setVisibility(View.GONE);
 				}
+				else if(nombre.equals("Armando Mantecón"))
+				{
+					imgs.add(R.drawable.armando_mantecon_1);
+					imgs.add(R.drawable.armando_mantecon_2);
+					imgs.add(R.drawable.armando_mantecon_3);
+					//header.setImageDrawable( getResources().getDrawable(R.drawable.header));
+					hImageViewPic.setImageDrawable( getResources().getDrawable(R.drawable.armando_mantecon_1));
+					iButton.setOnClickListener(iButtonChangeImageListener);
+				    gButton.setOnClickListener(gButtonChangeImageListener);
+				}
+				
 				else{
 					
 				}
@@ -256,7 +270,7 @@ public class fichadoctor extends Activity {
 	      switch(keyCode) {
 	      case(KeyEvent.KEYCODE_BACK):
 	          
-			     if(code.equals("alergologo") || code.equals("gastro") || code.equals("odontologo")){
+			     if(code.equals("alergologo") || code.equals("gastro") || code.equals("odontologo") || code.equals("ortopedista") || code.equals("dermatologo")){
 			    	 Intent a1_intent = new Intent(this, ListaMedicosActivity.class);
 				     a1_intent.putExtra("especialidad", code);
 			       startActivity(a1_intent);

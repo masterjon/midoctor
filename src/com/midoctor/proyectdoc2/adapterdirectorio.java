@@ -115,6 +115,30 @@ public class adapterdirectorio extends ArrayAdapter<classespecialidades> {
 			{
 				holder.btnimage.setImageResource(R.drawable.logo_monica_callejo);
 			}
+			else if(so.Name().equals("Dr. Armando Mantecón"))
+			{
+				holder.btnimage.setImageResource(R.drawable.logo_mantecon);
+			}
+			else if(so.Name().equals("Dra. Araceli de la Torre Plasencia"))
+			{
+				holder.btnimage.setImageResource(R.drawable.doctora);
+			}
+			else if(so.Name().equals("Dr. Jorge Treviño"))
+			{
+				holder.btnimage.setImageResource(R.drawable.doctor);
+			}
+			else if(so.Name().equals("Dr. Hector Raul Rivero Escalante"))
+			{
+				holder.btnimage.setImageResource(R.drawable.doctor);
+			}
+			else if(so.Name().equals("Dr. Juan Carlos Carrera"))
+			{
+				holder.btnimage.setImageResource(R.drawable.doctor);
+			}
+			else if(so.Name().equals("Dr. Arturo Gonzalez Pool"))
+			{
+				holder.btnimage.setImageResource(R.drawable.doctor);
+			}
 			else{
 				holder.btnimage.setImageResource(R.drawable.doctor);
 			}

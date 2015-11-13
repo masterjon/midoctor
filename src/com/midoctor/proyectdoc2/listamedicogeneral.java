@@ -20,6 +20,7 @@ public class listamedicogeneral extends Activity {
 	private ImageButton buttonreuma;
 	private ImageButton buttonalergo;
 	private ImageButton buttoodonto;
+	private ImageButton buttonendo;
 	
 	private  Button buttonREGRESAR;
 	@Override
@@ -31,7 +32,7 @@ public class listamedicogeneral extends Activity {
 		 buttonreuma = (ImageButton) findViewById(R.id.btnreuma);
 		 buttonalergo = (ImageButton) findViewById(R.id.btnalergo);
 		 buttoodonto = (ImageButton) findViewById(R.id.btnodonto);
-		
+		 buttonendo =  (ImageButton) findViewById(R.id.btnendo);
 		 buttonREGRESAR = (Button) findViewById(R.id.navegacionizq);
 		buttonpediatra.setOnClickListener(new View.OnClickListener() {
 	        public void onClick(View v) {
@@ -108,6 +109,20 @@ public class listamedicogeneral extends Activity {
 	          
 	        }
 	    });
+		buttonendo.setOnClickListener(new View.OnClickListener() {
+	        public void onClick(View v) {
+	        	
+	            // Perform action on click   
+	        	
+	        	
+	        	
+	        	Intent visitas = new Intent(getApplicationContext(), pediatracirujano.class);
+	        	visitas.putExtra("code", "endo");
+				startActivity(visitas);
+				finish();
+	          
+	        }
+	    });
 		
 		  buttonREGRESAR.setOnClickListener(new View.OnClickListener() {
 		        public void onClick(View v) {
@@ -120,6 +135,7 @@ public class listamedicogeneral extends Activity {
 		          
 		        }
 		    });
+		  
 		
 			
 	}

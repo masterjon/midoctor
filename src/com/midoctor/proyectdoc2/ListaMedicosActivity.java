@@ -65,6 +65,11 @@ public class ListaMedicosActivity extends Activity {
 				tv_title.setText("Dermatólogo");
 				img.setBackgroundResource(R.drawable.mascota_dermatologo);
 				tv_content.setText("Es el médico especializado en los padecimientos de la piel, ofrece diagnóstico, prevención y tratamiento.\n Enfermedades que trata:  acné, dermatitis, comezón.");
+				texto.setText("Conoce a nuestros dermatologos:");
+				classespecialidades one = new
+						classespecialidades("1","Dra. Araceli de la Torre Plasencia","Dermatologa","998 898 26 47 ","lucet2009@hotmail.com",especialidad,"21.1438223", "-86.8313818",
+						"Pabellón Caribe");
+				fetch.add(one);
 		 }else if(especialidad.equals("endocrinologo")){
 				tv_title.setText("Endocrinólogo");
 				img.setBackgroundResource(R.drawable.mascota_endocrinologo);
@@ -77,7 +82,11 @@ public class ListaMedicosActivity extends Activity {
 				classespecialidades one = new
 						classespecialidades("1","Dr. Raúl Barragán Parrao","Gastroenterólogo","998 8980801","raulbapa@hotmail.com",especialidad,"21.13655", "-86.827488",
 						"Av Tulum Lote 1 mza 1  consultorio  315      SM 12 Hospital Galenia CP. 77505");
+				classespecialidades one1 = new
+						classespecialidades("1","Dr. Jorge Treviño","Gastroenterólogo","998 267 74 04","antiobesity@hotmail.com",especialidad,"21.1362757", "-86.829636",
+						"Hospital Galenia");
 				fetch.add(one);
+				fetch.add(one1);
 				
 		 }else if(especialidad.equals("ginecologo")){
 				tv_title.setText("Ginecólogo");
@@ -125,6 +134,12 @@ public class ListaMedicosActivity extends Activity {
 				tv_title.setText("Ortopedista");
 				img.setBackgroundResource(R.drawable.mascota_ortopedista);
 				tv_content.setText("Es el médico especializado en la prevención y tratamiento de las afecciones o traumas de huesos y músculos. Enfermedades que trata:  fracturas, artritis, tendosinovitis estenosante, distensión muscular.");
+				texto.setText("Conoce a nuestros ortopedistas:");
+				classespecialidades one = new
+						classespecialidades("1","Armando Mantecón","Ortopedista"," (998) 884 94 68","doctor@armandomantecon.com",especialidad,"21.1446722", "-86.8246716",
+						"Hospital Amerimed Cancun, S.A de C.V");
+							
+				fetch.add(one);
 		 }else if(especialidad.equals("otorrino")){
 				tv_title.setText("Otorrinolaringólogo");
 				img.setBackgroundResource(R.drawable.mascota_otorrino);

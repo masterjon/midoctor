@@ -51,7 +51,7 @@ public class especalidadades extends Activity {
 			@Override
 			public void onClick(View v) {
 				Intent homepage = new Intent(getApplicationContext(),
-						ProximamenteActivity.class);
+						ClinicasActivity.class);
 				homepage.putExtra("background", 1);
 				
 			       startActivity(homepage);
@@ -66,7 +66,7 @@ public class especalidadades extends Activity {
 			@Override
 			public void onClick(View v) {
 				Intent homepage = new Intent(getApplicationContext(),
-						ProximamenteActivity.class);
+						LaboratoriosActivity.class);
 				homepage.putExtra("background", 2);
 			       startActivity(homepage);
 			       

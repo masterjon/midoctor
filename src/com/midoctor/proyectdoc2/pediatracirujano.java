@@ -93,11 +93,19 @@ public class pediatracirujano  extends Activity {
 				classespecialidades one3 = new classespecialidades("4","Dra. Genny Santamaría Berrón","Pediatra","8482946","genny_pasitos@hotmail.com",code,"21.149954","-86.848554",
 			"Av Andrés Quintana Roo num 157 Sm 45" +"\n"+"Pasitos.Cancún Quintana Roo  CP 77500");
 				
+				classespecialidades one4 = new classespecialidades("5","Dr. Arturo Gonzalez Pool","Pediatra","998  898 08 20","aglezpool@prodigy.net.mx",code,"21.1438223","-86.8313818",
+						"Pabellón Caribe");
+				
+				classespecialidades one5 = new classespecialidades("5","Dr. Juan Carlos Carrera","Pediatra","998 802 25 78","doctor_carrera@yahoo.com.mx",code,"21.1362757","-86.829636",
+						"Hospital Galenia");
+				
 				
 				fetch.add(one);
 				fetch.add(one1);
 				fetch.add(one2);
 				fetch.add(one3);
+				fetch.add(one4);
+				fetch.add(one5);
 		}
 		
 		if(code.equals("neonato"))
@@ -190,8 +198,25 @@ public class pediatracirujano  extends Activity {
 		fetch.add(one);
 		}
 		
-		 
+		if(code.equals("endo"))
+		{
+			header.setImageDrawable( getResources().getDrawable(R.drawable.header_peidatra)); 
+
+			//header.setImageDrawable( getResources().getDrawable(R.drawable.odontopediatraheader));
+			
 		
+		webView.loadData("<html><head><meta Content-Type: text/html; charset=ISO-8859-1 /></head> "
+				+ "<body><div style=text-align:justify>"
+				+ "Es el m&eacute;dico especializado en las enfermedades hormonales "
+				+ "del metabolismo y de los problemas alimenticios o de nutrici&oacute;n. "
+				+ "Enfermedades que trata: diabetes, obesidad."
+				+ " </div></body></html>" ,"text/html", "UTF-8");
+		texto.setText("Conoce a nuestros odontopediatras:");
+		classespecialidades one = new 
+				classespecialidades("5","Dr. Hector Raul Rivero Escalante","Endocrinologo Pediatra","998 898 13 94","hrriveroe@hotmail.com",code,"21.1438223", "-86.8313818",
+				"Av. Nichupte 22  Pabellón Caribe  Local 10 grupo médico integral");
+		fetch.add(one);
+		}
 		
 //	    button.setOnClickListener(new View.OnClickListener() {
 //	        public void onClick(View v) {
