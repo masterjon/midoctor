@@ -10,7 +10,8 @@ public class classespecialidades {
     private String coordenadasla;
     private String coordenadaslo;
     private String direccion;
-    public classespecialidades(String id, String Name ,String Detalle ,String Telefono,String Correo , String Code , String Coordenadasla,String Coordenadaslo, String Direccion){
+    private String website;
+    public classespecialidades(String id, String Name ,String Detalle ,String Telefono,String Correo , String Code , String Coordenadasla,String Coordenadaslo, String Direccion, String Website){
        Id =id;
        name = Name;
        detalle = Detalle;
@@ -20,6 +21,7 @@ public class classespecialidades {
        coordenadaslo =Coordenadaslo;
        code =Code;
        direccion =Direccion;
+       website = Website;
     }
 
 
@@ -49,6 +51,9 @@ public class classespecialidades {
     }
     public String Direccion(){
         return direccion;
+    }
+    public String Website(){
+        return website;
     }
     
 }

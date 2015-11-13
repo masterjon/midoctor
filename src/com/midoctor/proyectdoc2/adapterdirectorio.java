@@ -162,6 +162,7 @@ public class adapterdirectorio extends ArrayAdapter<classespecialidades> {
 		        	visitas.putExtra("correo", so.correo());
 		        	visitas.putExtra("telefono", so.telefono());
 		        	visitas.putExtra("code", so.Code());
+		        	visitas.putExtra("website", so.Website());
 		        	activity.startActivity(visitas);
 		        	((Activity)v.getContext()).finish();
 				   
@@ -183,6 +184,7 @@ public class adapterdirectorio extends ArrayAdapter<classespecialidades> {
 		        	visitas.putExtra("correo", so.correo());
 		        	visitas.putExtra("telefono", so.telefono());
 		        	visitas.putExtra("code", so.Code());
+		        	visitas.putExtra("website", so.Website());
 		        	activity.startActivity(visitas);
 		        	((Activity)v.getContext()).finish();
 				   
@@ -204,6 +206,7 @@ public class adapterdirectorio extends ArrayAdapter<classespecialidades> {
 		        	visitas.putExtra("correo", so.correo());
 		        	visitas.putExtra("telefono", so.telefono());
 		        	visitas.putExtra("code", so.Code());
+		        	visitas.putExtra("website", so.Website());
 		        	activity.startActivity(visitas);
 		        	((Activity)v.getContext()).finish();
 				   
@@ -225,6 +228,7 @@ public class adapterdirectorio extends ArrayAdapter<classespecialidades> {
 		        	visitas.putExtra("correo", so.correo());
 		        	visitas.putExtra("telefono", so.telefono());
 		        	visitas.putExtra("code", so.Code());
+		        	visitas.putExtra("website", so.Website());
 		        	activity.startActivity(visitas);
 		        	((Activity)v.getContext()).finish();
 				   

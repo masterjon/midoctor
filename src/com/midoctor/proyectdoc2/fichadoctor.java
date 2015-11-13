@@ -5,6 +5,7 @@ import com.midoctor.proyectdoc2.R;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -25,6 +26,7 @@ public class fichadoctor extends Activity {
 	    private TextView  textdireccion;
 	    private TextView   texttelefono;
 	    private TextView  textemail;
+	    private TextView textwebsite;
 	    String id;
 	    String nombre;
 	    String especialidad;
@@ -32,6 +34,7 @@ public class fichadoctor extends Activity {
 	    String  correo ;
 	    String  telefono;
 	    String  code;
+	    String  website;
 	    private int currentImage = 0;
 	    ArrayList<Integer> imgs = new ArrayList<Integer>();
 	   
@@ -48,7 +51,7 @@ public class fichadoctor extends Activity {
 	     correo = this.getIntent().getStringExtra("correo");
 	     telefono = this.getIntent().getStringExtra("telefono");
 	     code = this.getIntent().getStringExtra("code");
-
+	     website = this.getIntent().getStringExtra("website");
 	     
 	     header = (ImageView) findViewById(R.id.tv_header);
 		  hImageViewPic = (ImageView) findViewById(R.id.imageViewrisa);
@@ -56,6 +59,7 @@ public class fichadoctor extends Activity {
 		  iButton = (Button) findViewById(R.id.navegacionder1);
 	      gButton = (Button) findViewById(R.id.navegacionizq1);
 	     texttitulo = (TextView)findViewById(R.id.texttitulo);
+	     textwebsite = (TextView)findViewById(R.id.website);
 	     /*  textdireccion = (TextView)findViewById(R.id.direccion);
 	      texttelefono = (TextView)findViewById(R.id.telefono);
 	      textemail = (TextView)findViewById(R.id.email);
@@ -64,7 +68,8 @@ public class fichadoctor extends Activity {
 	      texttelefono.setText(correo);
 	      textemail.setText(telefono);*/
 	        texttitulo.setText(nombre);
-	        
+	        textwebsite.setText(website);
+	        textwebsite.setOnClickListener(openWebsite);
 	        
 	        
 	         
@@ -217,6 +222,22 @@ public class fichadoctor extends Activity {
 		
 			
 	}
+	View.OnClickListener openWebsite = new OnClickListener() {
+		 @Override
+		   public void onClick(View v) {
+			   
+			   Intent websiteIntent = new Intent(Intent.ACTION_VIEW);
+			   website = "http://"+website;
+			   websiteIntent.setData(Uri.parse(website));
+			   
+			   //map.putExtra("direccion", so.Direccion());
+	        	startActivity(websiteIntent);
+	        	
+	        	((Activity)v.getContext()).finish();
+			 
+			
+		   }
+	};
 	
 	 View.OnClickListener iButtonChangeImageListener = new OnClickListener() {
 

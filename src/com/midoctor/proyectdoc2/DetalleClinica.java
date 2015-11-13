@@ -80,7 +80,7 @@ public class DetalleClinica extends Activity {
 	       telButton.setOnClickListener(call);
 	       bottonemail.setOnClickListener(sendMail);
 	       bottonubicacion.setOnClickListener(getLocation); 
-	        
+	       textwebsite.setOnClickListener(openWebsite);
 	         
 		  if (id.equals("999999"))
 		  {
@@ -179,6 +179,22 @@ public class DetalleClinica extends Activity {
 			   map.putExtra("coordenadaslo", coords[1]);
 			   //map.putExtra("direccion", so.Direccion());
 	        	startActivity(map);
+	        	
+	        	((Activity)v.getContext()).finish();
+			 
+			
+		   }
+	};
+	View.OnClickListener openWebsite = new OnClickListener() {
+		 @Override
+		   public void onClick(View v) {
+			   
+			   Intent websiteIntent = new Intent(Intent.ACTION_VIEW);
+			   website = "http://"+website;
+			   websiteIntent.setData(Uri.parse(website));
+			   
+			   //map.putExtra("direccion", so.Direccion());
+	        	startActivity(websiteIntent);
 	        	
 	        	((Activity)v.getContext()).finish();
 			 

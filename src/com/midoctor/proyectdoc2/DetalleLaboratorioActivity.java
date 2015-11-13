@@ -67,6 +67,7 @@ public class DetalleLaboratorioActivity extends Activity {
 	      
 	     texttitulo = (TextView)findViewById(R.id.texttitulo);
 	     textwebsite = (TextView)findViewById(R.id.website);
+	     textwebsite.setOnClickListener(openWebsite);
 	     /*  textdireccion = (TextView)findViewById(R.id.direccion);
 	      texttelefono = (TextView)findViewById(R.id.telefono);
 	      textemail = (TextView)findViewById(R.id.email);
@@ -179,6 +180,22 @@ public class DetalleLaboratorioActivity extends Activity {
 			   map.putExtra("coordenadaslo", coords[1]);
 			   //map.putExtra("direccion", so.Direccion());
 	        	startActivity(map);
+	        	
+	        	((Activity)v.getContext()).finish();
+			 
+			
+		   }
+	};
+	View.OnClickListener openWebsite = new OnClickListener() {
+		 @Override
+		   public void onClick(View v) {
+			   
+			   Intent websiteIntent = new Intent(Intent.ACTION_VIEW);
+			   website = "http://"+website;
+			   websiteIntent.setData(Uri.parse(website));
+			   
+			   //map.putExtra("direccion", so.Direccion());
+	        	startActivity(websiteIntent);
 	        	
 	        	((Activity)v.getContext()).finish();
 			 

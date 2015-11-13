@@ -26,6 +26,7 @@
         android:layout_marginTop="265dp"
         android:orientation="vertical"
         android:textSize="14sp"
+         android:textColor="#FFFFFF"
         android:textStyle="bold" />
 
     <WebView
@@ -46,6 +47,7 @@
         android:gravity="left"
         android:orientation="vertical"
         android:paddingBottom="10dp"
+        android:textColor="#FFFFFF"
         android:textSize="12sp" />
 
       <ListView

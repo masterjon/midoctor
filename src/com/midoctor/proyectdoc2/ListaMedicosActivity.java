@@ -41,11 +41,13 @@ public class ListaMedicosActivity extends Activity {
 				texto.setText("Conoce a nuestros alergólogogos:");
 				classespecialidades one = new
 						classespecialidades("1","Dr. Francisco Navarrete Suárez","Alergólogo","8981927","alergiadecancun@yahoo.com.mx",especialidad,"21.13655", "-86.827488",
-						"Av. Tulum Lote 1 mza 1 consultorio 203  SM 12 Hospital Galenia. CP 77505  \n\nServicios: Pacientes con alergias, pruebas de alergia, espirometrias, vacunas para alergia y vacunas complementarias de la cartilla de vacunacion.");
+						"Av. Tulum Lote 1 mza 1 consultorio 203  SM 12 Hospital Galenia. CP 77505  \n\nServicios: Pacientes con alergias, pruebas de alergia, espirometrias, vacunas para alergia y vacunas complementarias de la cartilla de vacunacion."
+								,"");
 							
 				classespecialidades one1 = new 
 						classespecialidades("2","Dra. Aurora Meza Morales","Alergólogo","8981927","alergiaypediatria@yahoo.com.mx",especialidad,"21.13655", "-86.827488",
-						"Av. Tulum lote 1 mza 1 consultorio 203 SM 12  Hospital Galenia. CP 77505");
+						"Av. Tulum lote 1 mza 1 consultorio 203 SM 12  Hospital Galenia. CP 77505",
+						"");
 				fetch.add(one);
 				fetch.add(one1);
 		 }
@@ -68,7 +70,7 @@ public class ListaMedicosActivity extends Activity {
 				texto.setText("Conoce a nuestros dermatologos:");
 				classespecialidades one = new
 						classespecialidades("1","Dra. Araceli de la Torre Plasencia","Dermatologa","998 898 26 47 ","lucet2009@hotmail.com",especialidad,"21.1438223", "-86.8313818",
-						"Pabellón Caribe");
+						"Pabellón Caribe","");
 				fetch.add(one);
 		 }else if(especialidad.equals("endocrinologo")){
 				tv_title.setText("Endocrinólogo");
@@ -81,10 +83,10 @@ public class ListaMedicosActivity extends Activity {
 				texto.setText("Conoce a nuestros gastroenterólogos:");
 				classespecialidades one = new
 						classespecialidades("1","Dr. Raúl Barragán Parrao","Gastroenterólogo","998 8980801","raulbapa@hotmail.com",especialidad,"21.13655", "-86.827488",
-						"Av Tulum Lote 1 mza 1  consultorio  315      SM 12 Hospital Galenia CP. 77505");
+						"Av Tulum Lote 1 mza 1  consultorio  315      SM 12 Hospital Galenia CP. 77505","www.gastroenterologiacancun.com");
 				classespecialidades one1 = new
 						classespecialidades("1","Dr. Jorge Treviño","Gastroenterólogo","998 267 74 04","antiobesity@hotmail.com",especialidad,"21.1362757", "-86.829636",
-						"Hospital Galenia");
+						"Hospital Galenia","");
 				fetch.add(one);
 				fetch.add(one1);
 				
@@ -123,7 +125,8 @@ public class ListaMedicosActivity extends Activity {
 				texto.setText("Conoce a nuestros odontólogos:");
 				classespecialidades one = new
 						classespecialidades("1","Dra. Mónica Callejo","Cirujana Dentista","","monica_callejo@hotmail.com",especialidad,"21.136610", "86.827509",
-						"Hospital Galenia consultorio 203-2 Av. tulum  mz 01 lote 01 SM 12 Cancún, Quintana Roo. CP. 77505  \n\n ODONTOLOGIA ESTETICA Y PREVENTIVA \n FACULTAD DE ODONTOLOGIA UNAM \n CEDULA PROFESIONAL 2163854 \n CERTIFICADA ADM E.C-0403-01/1 \n *odontologia preventiva \n *odontologia estetica \n *implantes dentales \n *emergencias dentales \n twitter @CdMonica \n facebook: Dra. Monica Callejo Mi dentista Cancun");
+						"Hospital Galenia consultorio 203-2 Av. tulum  mz 01 lote 01 SM 12 Cancún, Quintana Roo. CP. 77505  \n\n ODONTOLOGIA ESTETICA Y PREVENTIVA \n FACULTAD DE ODONTOLOGIA UNAM \n CEDULA PROFESIONAL 2163854 \n CERTIFICADA ADM E.C-0403-01/1 \n *odontologia preventiva \n *odontologia estetica \n *implantes dentales \n *emergencias dentales \n twitter @CdMonica \n facebook: Dra. Monica Callejo Mi dentista Cancun"
+								,"");
 							
 				fetch.add(one);
 		 }else if(especialidad.equals("oncologo")){
@@ -137,7 +140,7 @@ public class ListaMedicosActivity extends Activity {
 				texto.setText("Conoce a nuestros ortopedistas:");
 				classespecialidades one = new
 						classespecialidades("1","Armando Mantecón","Ortopedista"," (998) 884 94 68","doctor@armandomantecon.com",especialidad,"21.1446722", "-86.8246716",
-						"Hospital Amerimed Cancun, S.A de C.V");
+						"Hospital Amerimed Cancun, S.A de C.V","www.armandomantecon.com");
 							
 				fetch.add(one);
 		 }else if(especialidad.equals("otorrino")){

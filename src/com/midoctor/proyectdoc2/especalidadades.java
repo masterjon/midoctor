@@ -80,11 +80,11 @@ public class especalidadades extends Activity {
 					android.R.layout.simple_list_item_1, valuesOPCIONES);
 		 ListViewopction.setAdapter(adapter1);*/
 		
-		classespecialidades one = new classespecialidades("1","Doctores",null,null,null,null,null,null,null);
-		classespecialidades one1 = new classespecialidades("2","Laboratorios",null,null,null,null,null,null,null);
-		classespecialidades one2 = new classespecialidades("3","Rayos X",null,null,null,null,null,null,null);
-		classespecialidades one3 = new classespecialidades("4","Clínicas y Hospitales",null,null,null,null,null,null,null);
-		classespecialidades one4 = new classespecialidades("5","Farmacias",null,null,null,null,null,null,null);
+		classespecialidades one = new classespecialidades("1","Doctores",null,null,null,null,null,null,null,null);
+		classespecialidades one1 = new classespecialidades("2","Laboratorios",null,null,null,null,null,null,null,null);
+		classespecialidades one2 = new classespecialidades("3","Rayos X",null,null,null,null,null,null,null,null);
+		classespecialidades one3 = new classespecialidades("4","Clínicas y Hospitales",null,null,null,null,null,null,null,null);
+		classespecialidades one4 = new classespecialidades("5","Farmacias",null,null,null,null,null,null,null,null);
 		fetch.add(one);
 		fetch.add(one1);
 		fetch.add(one2);

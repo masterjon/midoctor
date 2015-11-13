@@ -21,7 +21,7 @@ public class ClinicasActivity extends Activity {
 			"Pediatric Center",
 		};
 	String[] website= {
-			"http://www.pediatric-center.com.mx/",
+			"www.pediatric-center.com.mx/",
 		};
 	String[] direccion= {
 			"21.1362757,-86.829636",

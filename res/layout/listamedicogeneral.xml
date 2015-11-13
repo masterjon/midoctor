@@ -71,6 +71,7 @@
       style="@style/BodySmallBlack"
       android:textSize="14sp"
       android:textStyle="bold"
+      android:textColor="#FFFFFF"
       android:text="Conoce a nuestros pediatras especialistas:"
       />
  <TableRow
